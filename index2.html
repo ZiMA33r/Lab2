@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: inline-block;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        ul{
+            list-style: none;
+            width: 50vw;
+        }
+        li{
+            width: 90%;
+            padding: 10px;
+            font-size: 20px;
+        }
+        li.h{
+            background-color: skyblue;
+        }
+        li.o{
+            background-color: aqua;
+        }
+        li.g{
+            background-color: gainsboro;
+        }
+        li::before{
+            content: url(11.png);
+            padding: 10px;
+        }
+        li.g::before{
+            content: url(22.png);
+            padding: 10px;
+        }
+        h1 {
+            margin-left: 6%;
+        }
+        span.red{
+            color: brown;
+        }
+        span.through{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <h1>My To Do List</h1>
+    <ul>
+        <li class="h">Hit the gim <span class="red">&#215;</span></li>
+        <li class="g"><span class="through">Pay bills</span> <span class="red">&#215;</span></li>
+        <li class="h">Meet John <span class="red">&#215;</span></li>
+        <li class="o">Buy eggs <span class="red">&#215;</span></li>
+        <li class="g"><span class="through">Read a book</span> <span class="red">&#215;</span></li>
+        <li class="o">Orginize office <span class="red">&#215;</span></li>
+        <li class="h">Eat dinner <span class="red">&#215;</span></li>
+        <li class="o">Buy apples <span class="red">&#215;</span></li>
+        <li class="h">Meet George <span class="red">&#215;</span></li>
+        <li class="o">Feed the cat <span class="red">&#215;</span></li>
+        <li class="g"><span class="through">Whrite a letter</span> <span class="red">&#215;</span></li>
+        <li class="o">Run 1 km <span class="red">&#215;</span></li>
+
+    </ul>
+</body>
+</html>
