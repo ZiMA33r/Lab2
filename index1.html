@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: inline-block;
+        }
+        ol{
+            list-style: none;
+            counter-reset: x;
+            background-color: pink;
+            padding: 10px;
+            width: 50vw;
+        }
+        li{
+            background-color: palevioletred;
+            margin: 5px;
+            width: 90%;
+            padding: 10px;
+            
+        }
+        li::before{
+            counter-increment: x;
+            content: counter(x)".";
+            background-color: palevioletred;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+        }
+        span {
+            background-color: rgb(113, 39, 64);
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li><span>Apple</span></li>
+        <li><span>Orange</span></li>
+        <li><span>Pineapple</span></li>
+        <li><span>Pear</span></li>
+        <li><span>Cherry</span></li>
+    </ol>
+</html>

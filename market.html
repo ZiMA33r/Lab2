@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CarDice - большой магазин настольных игр и товаров для хобби и творчества в России
+    | Купить лучшие сувениры, аксессуары, а также классные тематические подарки с доставкой " />
+    <title>CarDice</title>
+    <style>
+        * {
+            font-family: "TTChocolates", sans-serif;
+
+        }
+        body{
+            display: inline-block;
+        }
+        @font-face {
+            font-family: 'Edisson';
+            src: url('Edisson.woff2') format('woff2'),
+                url('Edisson.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        #emblem {
+            width: 80px;
+        }
+        img.Placeholder {
+            width: 200px;
+        }
+        img.Mes {
+            width: 50px;
+        }
+        span#Name1 {
+            font-size: 50px;
+            font-family: 'Edisson';
+            color:blueviolet
+        }
+        .Name {
+            color: blueviolet;
+            font-size: 18px;
+        }
+        .price {
+            font-family: "Edisson";
+            font-size: 25px;
+        }
+        section{
+            width: 100vw;
+        }
+        article {
+            margin: 2%;
+            width: 20vw;
+            border: 2px solid blueviolet;
+            justify-content: center;
+            text-align: center;
+        }
+        section.vip {
+            margin: 5%;
+            width: 30vw;
+            border: 3px dashed violet;
+            text-align: center;
+        }
+        a.header {
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+        }
+        a:hover{
+            cursor: pointer;
+            color: blueviolet;
+        }
+        a.header:hover{
+            cursor: pointer;
+            color: blueviolet;
+            border-bottom: 4px solid blueviolet;
+        }
+        button {
+            width: 80%;
+            height: 40px;
+            font-size: 18px;
+            color: white;
+            background-color: blueviolet;
+        }
+        button:hover{
+            background-color: rgb(200, 158, 240);
+        }
+        input {
+            height: 40px;
+        }
+        #search {
+            width: 5%;
+            background-color: rgb(200, 158, 240);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="emblem" src="Em.png" alt="Эмблема">
+            <b><a class="header" href="market.html">Главная</a>
+            <a class="header" href="link.html">Каталог</a>
+            <a class="header" href="link.html">О нас</a>
+            <a class="header" href="link.html">Контакты</a>
+            <a class="header" href="link.html">Корзина</a></b>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h1>Добро пожаловать в <span id="Name1">CarDice</span></h1>
+        <form action="" method="get">
+            <input name="s" placeholder="Искать здесь..." type="search">
+            <button id="search" type="submit">Поиск</button>
+        </form>
+        <section>
+            <h2>Популярные товары</h2>
+            <article>
+                <img class="Placeholder" src= "https://cdn1.ozone.ru/s3/multimedia-a/c600/6352213246.jpg" alt="images">
+                <p class="Name"><b>Game of Thrones</b></p>
+                <p><i>Знаменитая стратегия по миру Джорджа Мартина</i></p>
+                <p class="price">10 200 &#8381;</p>
+                <p><button>Добавить в корзину</button></p>
+            </article>
+            <article>
+                <img class="Placeholder" src="https://www.cardplace.ru/images/thumbs/accessories/none_russian/300/184117.jpg" alt="images">
+                <p class="Name"><b>Neuroshima Hex!</b></p>
+                <p><i>Кутой постапок польского производства</i></p>
+                <p class="price">8 900  &#8381;</p>
+                <p><button>Добавить в корзину</button></p>
+            </article>
+            <article>
+                <img class="Placeholder" src="https://www.igrotime.ru/upload/t/322-298im/large_foto/nabor-sozdatelja-kolod-izdanija-core-2020-mtg.jpg" alt="images">
+                <p class="Name"><b>Magic: the Gathering</b></p>
+                <p><i>Величайшая коллекционная карточная игра</i></p>
+                <p class="price">5 700  &#8381;</p>
+                <p><button>Добавить в корзину</button></p>
+            </article>
+        </section>
+        <section class="vip">
+            <h2><i>Специальные предложения</i></h2>
+            <p class="Name"><b>Кубики в подарок!</b></p>
+            <img class="Placeholder" src="https://cdn1.ozone.ru/s3/multimedia-1-j/c600/6961564423.jpg" alt="кубики">
+            <p>При покупке от <b>10 000 &#8381;</b> набор кубов в подарок!</p>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p><a href="https://vk.com"><img class="Mes" src="https://i0.wp.com/kikimoraki.ru/wp-content/uploads/2022/05/vk-circle-empty-icon-685.png?resize=300%2C300&ssl=1" alt="ярлык"></a> 
+            <a href="https://t.me"><img class="Mes" src="https://salegroups.ru/media/cache/group_page_logo/uploads/images/ea30cf/0c3feb/e250ac/group-picahytkg.jpeg" alt="ярлык"></a></p>
+        <p>Email: <a href="mailto:CarDice@yandex.ru">CarDice@yandex.ru</a></p>
+        <p>Тел: <a href="tel:+78005553555">8-800-555-35-55</a></p>
+        <p>&copy; Интернет-магазин настольных игр для детей и взрослых «CarDice»,
+            2021–2024. </p>
+    </footer>
+</body>
+</html>

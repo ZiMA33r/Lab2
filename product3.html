@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product3</title>
+    <style>
+        * {
+            font-family: "TTChocolates", sans-serif;
+        }
+        main{
+            text-align: center;
+        }
+        img{
+            width: 12vw;
+        }
+        img.big{
+            width: 36vw;
+            border: 1px solid blueviolet;
+        }
+        img.Mes {
+            width: 50px;
+        }
+        #emblem {
+            width: 80px;
+        }
+        a.header {
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+        }
+        a:hover{
+            cursor: pointer;
+            color: blueviolet;
+        }
+        a.header:hover{
+            cursor: pointer;
+            color: blueviolet;
+            border-bottom: 4px solid blueviolet;
+        }
+        p.har{
+            width: 35vw;
+            margin-left: 31vw;
+            border:2px dashed rgb(200, 158, 240);
+            padding: 1vw;
+        }
+        button {
+            width: 36vw;
+            height: 40px;
+            font-size: 18px;
+            color: white;
+            background-color: blueviolet;
+            margin: 2vw;
+        }
+        button:hover{
+            background-color: rgb(200, 158, 240);
+        }
+        a.Producer{
+            text-decoration: none;
+            color: black;
+        }
+        a.Producer:hover{
+            color:rgb(200, 158, 240);
+        }
+        h2{
+            margin-top: 5vh;
+        }
+        ul{
+            margin-left: 31vw;
+            text-align: left;
+            list-style: none;
+            counter-reset: x;
+            background-color: rgb(200, 158, 240);
+            padding: 10px;
+            width: 36vw;
+        }
+        li{
+            background-color: blueviolet;
+            margin: 5px;
+            width: 90%;
+            padding: 10px;
+            color: #fff;
+            
+        }
+        li::before{
+            content: ">";
+            background-color: blueviolet;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="emblem" src="Em.png" alt="Эмблема">
+            <b><a class="header" href="market.html">Главная</a>
+            <a class="header" href="link.html">Каталог</a>
+            <a class="header" href="link.html">О нас</a>
+            <a class="header" href="link.html">Контакты</a>
+            <a class="header" href="link.html">Корзина</a></b>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h1>Game of Thrones</h1>
+        <div><img class="big" src="p1.webp" alt="v1"></div>
+        <div>
+            <a href="product.html"><img src="p.webp" alt="p1"></a>
+            <a href="product1.html"><img src="p1.webp" alt="p2"></a>
+            <a href="product2.html"><img src="p2.webp" alt="p3"></a>
+        </div>
+        <h2>Характеристики</h2>
+        <ul>
+            <li><b>Количество игроков:</b> От 3 до 6 игроков</li>
+            <li><b>Возраст игроков:</b> От 13 лет</li>
+            <li><b>Время игры:</b> От 120 минут</li>
+            <li><b>Вес:</b> 2.1 кг</li>
+            <li><b>Производитель:</b> <a class="Producer" href="https://www.fantasyflightgames.com"> Fantasy Flight Games</a></li>
+        </ul>
+        <h2>Описание</h2>
+        <p class="har">Lorem ipsum dolor sit amet.
+        Nisi praesentium voluptas error sit.
+        Quia itaque suscipit accusamus sunt.
+        Totam quos provident pariatur illum!
+        Sit aut pariatur tempore aperiam?</p>
+        <p><button>Добавить в корзину</button></p>
+    </main>
+    <hr>
+    <footer>
+        <p><a href="https://vk.com"><img class="Mes" src="https://i0.wp.com/kikimoraki.ru/wp-content/uploads/2022/05/vk-circle-empty-icon-685.png?resize=300%2C300&ssl=1" alt="ярлык"></a> 
+            <a href="https://t.me"><img class="Mes" src="https://salegroups.ru/media/cache/group_page_logo/uploads/images/ea30cf/0c3feb/e250ac/group-picahytkg.jpeg" alt="ярлык"></a></p>
+        <p>Email: <a href="mailto:CarDice@yandex.ru">CarDice@yandex.ru</a></p>
+        <p>Тел: <a href="tel:+78005553555">8-800-555-35-55</a></p>
+        <p>&copy; Интернет-магазин настольных игр для детей и взрослых «CarDice»,
+            2021–2024. </p>
+    </footer>
+</body>
+</html>
